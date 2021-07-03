@@ -1,0 +1,28 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 250px;
+}
+
+.card img{
+    height: 350px;
+}
+.card-header{
+    font-size: 95%;
+    padding: 1%;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-footer-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
